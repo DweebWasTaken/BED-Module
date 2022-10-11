@@ -1,0 +1,20 @@
+/*
+  Name: Adeeb
+  Class: DISM/FT/2B/23
+  Group: None (Solo)
+  Admin No: P2107095
+*/
+
+#airport-container {
+    background-color: rgb(185, 225, 255);
+    height: 440px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#flight-container {
+    background-color: rgb(185, 225, 255);
+    height: 1010px;
+    padding: 20px;
+    border-radius: 30px;
+}

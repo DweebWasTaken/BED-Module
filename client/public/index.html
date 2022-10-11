@@ -1,0 +1,193 @@
+<!--
+  Name: Adeeb
+  Class: DISM/FT/2B/23
+  Group: None (Solo)
+  Admin No: P2107095
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SP Air</title>
+
+    <head>
+        <link rel="icon" href="./image/SpAirLogo.png">
+
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+
+        <!-- Link with Popper.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <!-- Link with Axios library -->
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </head>
+
+    <body>
+        <nav class="red" role="navigation" id="blurnav">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="#" class="brand-logo"><img src="./image/SpAirLogo.png" height="50px"></a>
+                <ul class="right hide-on-med-and-down">
+
+                    <li>
+                        <a id="admintab"></a>
+                    </li>
+                    <li>
+                        <a href="/profile"><i class="small material-icons">account_circle</i></a>
+                    </li>
+                </ul>
+
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#">Navbar Link</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+
+        <div id="index-banner" class="parallax-container">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <br><br>
+                    <h1 class="header center pink-text black">Welcome to SP Air</h1>
+                    <div class="row center">
+                        <h5 class="header col s12 light white-text darken-4 red">This is an Airport Booking Website</h5>
+                    </div>
+                    <div class="row center">
+                        <a href="/searchflight" id="download-button" class="btn-large waves-effect waves-light yellow black-text"><b>Start Booking</b></a>
+                    </div>
+                    <br><br>
+
+                </div>
+            </div>
+            <div class="parallax"><img src="image/airportbanner.webp" alt="Unsplashed background img 1" id="main-banner"></div>
+        </div>
+
+
+        <div class="container light-green">
+            <div class="section">
+
+                <!--   Icon Section   -->
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+                            <h5 class="center">Book with confidence</h5>
+
+                            <p class="light">Find the latest travel and health regulations by destination with our travel tool. Enjoy greater travel flexibility – including no change fees for most tickets.</p>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+                            <h5 class="center">Introduction</h5>
+
+                            <p class="light">SP Air is a full flight airline flying to domestic & international routes. The cabin baggage allowance provided by this airline is 23 kg and max size of 40 cm x 30 cm x 15 cm (L x W x H). checked baggage allowance is not included
+                                in the ticket. Passenger can check in at the airport 180 minutes prior to the flight departure time. Check in online is possible for flight on SP Air official website page. It can be done 1 days before scheduled departure
+                                time.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+                            <h5 class="center">Travel with ease</h5>
+
+                            <p class="light">With the reopening of the borders, SP AIR is preparing to start its flight operations for holiday travelers.It is an online booking system and you can also view the flight details online.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="parallax-container valign-wrapper">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <div class="row center">
+                        <h5 class="header col s12 light white-text">Book and manage flights on the go. Jet off on app-exclusive fares. Enjoy unlimited access to digital content. Travel seamlessly with the SP Air</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax"><img src="image/spairbanner2.webp" alt="Unsplashed background img 3"></div>
+        </div>
+
+        <div class="container light-green">
+            <div class="section">
+
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <h3><i class="mdi-content-send brown-text"></i></h3>
+                        <h4>Contact Us</h4>
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate white black-text">
+                            <label for="email">Email</label>
+                            <button class="btn waves-effect waves-light blue" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <footer class="page-footer teal">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">About SP Air</h5>
+                        <p class="grey-text text-lighten-4">I am a college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated. This is for BED</p>
+
+
+                    </div>
+                    <!--
+                <div class="col l3 s12">
+                    <h5 class="white-text">Settings</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!">Link 1</a></li>
+                        <li><a class="white-text" href="#!">Link 2</a></li>
+                        <li><a class="white-text" href="#!">Link 3</a></li>
+                        <li><a class="white-text" href="#!">Link 4</a></li>
+                    </ul>
+                </div>-->
+                    <div class="col l3 s19">
+                        <h5 class="white-text">SP Air Links</h5>
+                        <ul>
+                            <li><a class="white-text" href="/login">Login</a></li>
+                            <li><a class="white-text" href="/profile">Profile</a></li>
+                            <li><a class="white-text" href="/register">Register</a></li>
+                            <li><a class="white-text" href="/searchflight">Search Flight</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    Made by Adeeb | DISM/FT/2B/23 | P2107095
+                </div>
+            </div>
+
+        </footer>
+
+
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="./js/authAdmin.js"></script>
+
+    </body>
+
+
+
+</html>

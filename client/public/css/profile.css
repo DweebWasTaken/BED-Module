@@ -1,0 +1,43 @@
+/*
+  Name: Adeeb
+  Class: DISM/FT/2B/23
+  Group: None (Solo)
+  Admin No: P2107095
+*/
+
+@charset "utf-8";
+body {
+    background: linear-gradient(rgb(201, 255, 255), rgb(87, 188, 255));
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+}
+
+div#profile-card {
+    width: 1000px;
+}
+
+div#user-info>div {
+    padding: 1px 0px;
+}
+
+button {
+    margin: 5px;
+}
+
+img#profile-pic,
+img#upload-photo {
+    object-fit: cover;
+}
+
+body {
+    background-image: url(../image/hdb.gif);
+    background-size: auto;
+    background-position: center;
+    /*    background-repeat: no-repeat;
+      Do not repeat the image*/
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
